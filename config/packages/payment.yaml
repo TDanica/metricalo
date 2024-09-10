@@ -1,0 +1,11 @@
+# config/packages/payment.yaml
+parameters:
+    aci.base_uri: "%env(resolve:ACI_BASE_URI)%"
+    aci.payment_endpoint: "%env(resolve:ACI_PAYMENT_ENDPOINT)%"
+    aci.api_key: "%env(resolve:ACI_API_KEY)%"
+
+    shift4.base_uri: "%env(resolve:SHIFT4_BASE_URI)%"
+    shift4.payment_endpoint: "%env(resolve:SHIFT4_PAYMENT_ENDPOINT)%"
+    shift4.api_key: "%env(resolve:SHIFT4_API_KEY)%"
+
+    valid_providers: '%env(resolve:VALID_PROVIDERS)%'

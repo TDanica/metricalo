@@ -1,0 +1,8 @@
+services:
+    App\Service\PaymentService:
+        arguments:
+            $logger: '@logger'
+            $strategyFactory: '@App\Service\PaymentStrategy\PaymentStrategyFactory'
+            $cache: '@cache.app'
+            $validator: '@App\Service\PaymentDataValidator'
+
