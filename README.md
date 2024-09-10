@@ -36,7 +36,7 @@ docker-compose up --build
 ### 4. Access the Symfony Application
 
 ```bash
-[docker-compose up --build](http://localhost)
+http://localhost
 ```
 
 ### 5.  Run Tests
