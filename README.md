@@ -24,7 +24,7 @@ cd <repository-directory>
 ### 2. Set Up Environment Variables
 
 ```bash
-cp .env.example .env
+cp .env.test .env
 ```
 
 ### 3. Build and Start the Docker Containers
